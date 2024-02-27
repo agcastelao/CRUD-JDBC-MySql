@@ -14,6 +14,8 @@ public class ConnectionFactory {
         comboPooledDataSource.setUser("root");
         comboPooledDataSource.setPassword("cast30");
 
+        comboPooledDataSource.setMaxPoolSize(15);
+
         this.dataSource = comboPooledDataSource;
     }
 
